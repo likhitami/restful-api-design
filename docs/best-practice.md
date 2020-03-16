@@ -19,11 +19,13 @@
  - *200 Ok* code มาตรฐานสำหรับ request สำเร็จ
  - *201 Create* สร้างข้อมูลใหม่สำเร็จ
  - *204 No Content* สำเร็จ แต่ไม่ต้องการส่งข้อมูลใด ๆ กลับ
+ 
  **4xx (Client Error)**
  - *400 Bad Request*
  - *401 Unauthorized * การเข้าถึงไม่ได้รับอนุญาต
  - *403 Forbidden* การเข้าถึงได้รับอนุญาต แต่ไม่สามารถเข้าถึง resource ได้ 
  - *404 Not Found*
+ 
  **5xx (Server Error)**
  - *500 Internal Server Error* เกิดปัญหาบางอย่างใน server และต้องการแก้ไขจากผู้ดูแล
  - *503 Service Unavailable* เซิฟเวอร์ไม่สามารถเข้าถึงได้ อาจจะเกิดจากการปรับปรุง server หรือ server ล่ม
